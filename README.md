@@ -7,23 +7,23 @@ Cars are parked in the nearest available slot, and charges are calculated based 
 
 ## 📦 Features
 
-- Create a parking lot of fixed capacity
-- Park cars in nearest available slots
-- Unpark cars and calculate parking charges
-- View current parking status
-- Read commands from an input file
+- Create a parking lot of fixed capacity  
+- Park cars in nearest available slots  
+- Unpark cars and calculate parking charges  
+- View current parking status  
+- Read commands from an input file  
 
 ---
 
 ## ⚙️ How to Run
+```bash
+1. Clone or Download the Project
 
-### 1. Clone or Download the Project
 git clone https://github.com/Eastyanda27/parking-lot
 cd parking-lot
 
-### 2. Prepare Your Input File
+2. Prepare Your Input File
 Create a file named input.txt with parking commands. Example:
-
 
 create_parking_lot 6
 park KA-01-HH-1234
@@ -32,13 +32,15 @@ leave KA-01-HH-1234 4
 status
 You can modify or add more commands as needed.
 
-### 3. Run the App
+3. Run the App
 
 go run main.go input.txt
 You’ll see output on the terminal based on the commands in the file.
 
 🧪 Example Output
-
+text
+Copy
+Edit
 Created parking lot with 6 slots
 Allocated slot number: 1
 Allocated slot number: 2
@@ -47,7 +49,7 @@ Slot No. Registration No.
 2 KA-01-HH-9999
 
 
-### 📁 Project Structure
+📁 Project Structure
 
 parking-lot/
 ├── main.go             # Entry point
