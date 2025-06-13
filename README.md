@@ -22,6 +22,7 @@ Cars are parked in the nearest available slot, and charges are calculated based 
 git clone https://github.com/Eastyanda27/parking-lot
 cd parking-lot
 
+
 2. Prepare Your Input File
 Create a file named input.txt with parking commands. Example:
 
@@ -32,15 +33,15 @@ leave KA-01-HH-1234 4
 status
 You can modify or add more commands as needed.
 
+
 3. Run the App
 
 go run main.go input.txt
 You’ll see output on the terminal based on the commands in the file.
 
+
 🧪 Example Output
-text
-Copy
-Edit
+
 Created parking lot with 6 slots
 Allocated slot number: 1
 Allocated slot number: 2
