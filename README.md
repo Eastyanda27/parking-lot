@@ -18,14 +18,15 @@ Cars are parked in the nearest available slot, and charges are calculated based 
 ## ⚙️ How to Run
 
 ### 1. Clone or Download the Project
-
+```bash
 git clone https://github.com/Eastyanda27/parking-lot
 cd parking-lot
-
-### 2. Prepare Your Input File
+2. Prepare Your Input File
 Create a file named input.txt with parking commands. Example:
 
-
+lua
+Copy
+Edit
 create_parking_lot 6
 park KA-01-HH-1234
 park KA-01-HH-9999
@@ -33,23 +34,27 @@ leave KA-01-HH-1234 4
 status
 You can modify or add more commands as needed.
 
-### 3. Run the App
-
+3. Run the App
+bash
+Copy
+Edit
 go run main.go input.txt
 You’ll see output on the terminal based on the commands in the file.
 
 🧪 Example Output
-
+pgsql
+Copy
+Edit
 Created parking lot with 6 slots
 Allocated slot number: 1
 Allocated slot number: 2
 Registration number KA-01-HH-1234 with Slot Number 1 is free with Charge $30
 Slot No. Registration No.
 2 KA-01-HH-9999
-
-
-### 📁 Project Structure
-
+📁 Project Structure
+graphql
+Copy
+Edit
 parking-lot/
 ├── main.go             # Entry point
 ├── input.txt           # Command input file
